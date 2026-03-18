@@ -10,13 +10,13 @@
 
 # Exemple Sénégal et Guinée : 
 
-PHONE_NUMBER=221766297256
+PHONE_NUMBER=xxxxxxx
 
 # Ton numéro WhatsApp (owner)
 
 # Même numéro que PHONE_NUMBER
 
-OWNER_NUMBER=221766297256
+OWNER_NUMBER=xxxxxxx
 
 # Préfixe des commandes
 
