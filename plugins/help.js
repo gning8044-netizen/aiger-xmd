@@ -33,14 +33,14 @@ module.exports = {
           `⚡ *Commande :* ${config.prefix}${plugin.name}\n` +
           `📌 *Description :* ${plugin.description}\n` +
           `📂 *Catégorie :* ${plugin.category || "général"}\n\n` +
-          `_Powered by AIGER-XMD_ 🌸`,
+          `_Powered by SHADOW-TECH_ 🌸`,
       }, { quoted: msg });
     }
 
     // ✅ !help → Liste toutes les commandes
     let text =
       `╔══════════════════════════════╗\n` +
-      `║       📖 *AIDE AIGER-XMD*    ║\n` +
+      `║       📖 *AIDE SHADOW-TECH*    ║\n` +
       `╚══════════════════════════════╝\n\n` +
       `❝ _Toutes les commandes disponibles_ ❞\n\n` +
       `━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`;
@@ -72,7 +72,7 @@ module.exports = {
     text +=
       `\n━━━━━━━━━━━━━━━━━━━━━━━━━━━\n` +
       `💡 *${config.prefix}help [cmd]* pour plus de détails\n\n` +
-      `_Powered by AIGER-XMD_ 🌸`;
+      `_Powered by SHADOW-TECH_ 🌸`;
 
     await sock.sendMessage(from, { text }, { quoted: msg });
   },
