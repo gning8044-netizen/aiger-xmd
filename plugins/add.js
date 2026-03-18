@@ -33,7 +33,7 @@ module.exports = {
           `📌 *Exemple :*\n` +
           `└ !add 22612345678\n\n` +
           `⚠️ _Sans + ni espaces !_\n\n` +
-          `_Powered by AIGER-XMD_ 🌸`,
+          `_Powered by SHADOW-TECH_ 🌸`,
       }, { quoted: msg });
     }
 
@@ -50,7 +50,7 @@ module.exports = {
             `║      ❌ *NUMÉRO INVALIDE !*   ║\n` +
             `╚══════════════════════════════╝\n\n` +
             `😢 _Ce numéro n'est pas sur WhatsApp !_\n\n` +
-            `_Powered by AIGER-XMD_ 🌸`,
+            `_Powered by SHADOW-TECH_ 🌸`,
         }, { quoted: msg });
       }
 
@@ -63,7 +63,7 @@ module.exports = {
           `╚══════════════════════════════╝\n\n` +
           `🎉 @${number} *a été ajouté !*\n\n` +
           `❝ _Bienvenue dans le groupe !_ ❞ 😈\n\n` +
-          `_Powered by AIGER-XMD_ 🌸`,
+          `_Powered by SHADOW-TECH_ 🌸`,
         mentions: [jid],
       }, { quoted: msg });
 
@@ -75,7 +75,7 @@ module.exports = {
           `╚══════════════════════════════╝\n\n` +
           `😢 _Impossible d'ajouter ce membre !_\n` +
           `⚠️ _Le bot doit être admin !_\n\n` +
-          `_Powered by AIGER-XMD_ 🌸`,
+          `_Powered by SHADOW-TECH_ 🌸`,
       }, { quoted: msg });
     }
   },
