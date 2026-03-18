@@ -12,7 +12,7 @@ module.exports = {
     }
 
     // ✅ Pas de vérif admin — tout le monde peut tagall !
-    const message = args.join(" ") || "📢 Attention tout le monde *aiger xmd* vous demande d'être présent 🎁🎉🎁!";
+    const message = args.join(" ") || "📢 Attention tout le monde *dev shadow tech* vous demande d'être présent 🎁🎉🎁!";
     const members = groupMetadata.participants;
     const mentions = members.map(m => m.id);
 
