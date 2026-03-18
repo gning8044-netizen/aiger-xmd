@@ -27,7 +27,7 @@ module.exports = {
           `║    ⚡ *AUTOREACT ACTIVÉ !*    ║\n` +
           `╚══════════════════════════════╝\n\n` +
           `😈 _Je vais réagir sur chaque message !_\n\n` +
-          `_Powered by AIGER-XMD_ 🌸`,
+          `_Powered by SHADOW-TECH_ 🌸`,
       }, { quoted: msg });
     }
 
@@ -39,7 +39,7 @@ module.exports = {
           `║    ❌ *AUTOREACT DÉSACTIVÉ !* ║\n` +
           `╚══════════════════════════════╝\n\n` +
           `😴 _Je ne réagirai plus aux messages !_\n\n` +
-          `_Powered by AIGER-XMD_ 🌸`,
+          `_Powered by SHADOW-TECH_ 🌸`,
       }, { quoted: msg });
     }
 
@@ -52,7 +52,7 @@ module.exports = {
         `📊 Statut : ${status}\n\n` +
         `💡 *!autoreact on* → Activer\n` +
         `💡 *!autoreact off* → Désactiver\n\n` +
-        `_Powered by AIGER-XMD_ 🌸`,
+        `_Powered by SHADOW-TECH_ 🌸`,
     }, { quoted: msg });
   },
 };
