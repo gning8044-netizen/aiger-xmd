@@ -10,13 +10,13 @@
 
 # Exemple Sénégal et Guinée : 
 
-PHONE_NUMBER=xxxxxxxxxxxxx
+PHONE_NUMBER=221766297256
 
 # Ton numéro WhatsApp (owner)
 
 # Même numéro que PHONE_NUMBER
 
-OWNER_NUMBER=xxxxxxxxx
+OWNER_NUMBER=221766297256
 
 # Préfixe des commandes
 
@@ -32,5 +32,5 @@ MENU_IMAGE=https://files.catbox.moe/m9cxhw.jpg
 
 # Audio du menu (lien catbox)
 
-MENU_AUDIO=
+MENU_AUDIO=https://files.catbox.moe/shvn11.mp3
 
