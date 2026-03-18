@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════════
-// 🌸 AIGER-XMD — Créé par MOUHAMED 🌸 DARK 🌸
+// 🌸 SHADOW-TECH — Créé par DRV SHADOW 🌸 TECH 🌸
 // ⚠️ Toute copie sans autorisation interdite
 // ═══════════════════════════════════════════
 
@@ -38,7 +38,7 @@ module.exports = {
           `📊 Statut : ${status}\n\n` +
           `💡 *!antilink on* → Activer\n` +
           `💡 *!antilink off* → Désactiver\n\n` +
-          `_Powered by AIGER-XMD_ 🌸`,
+          `_Powered by SHADOW-TECH_ 🌸`,
       }, { quoted: msg });
     }
 
@@ -79,7 +79,7 @@ module.exports = {
             : "⚠️ _Je ne suis pas admin !_\n❌ _Je peux seulement avertir !_"
           }\n\n` +
           `⚠️ *3 liens = expulsion !*\n\n` +
-          `_Powered by AIGER-XMD_ 🌸`,
+          `_Powered by SHADOW-TECH_ 🌸`,
       }, { quoted: msg });
     }
 
@@ -89,7 +89,7 @@ module.exports = {
         `║   🔓 *ANTILINK DÉSACTIVÉ !*   ║\n` +
         `╚══════════════════════════════╝\n\n` +
         `✅ _Les liens sont maintenant autorisés !_\n\n` +
-        `_Powered by AIGER-XMD_ 🌸`,
+        `_Powered by SHADOW-TECH_ 🌸`,
     }, { quoted: msg });
   },
 };
