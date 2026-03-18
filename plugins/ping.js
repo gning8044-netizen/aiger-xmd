@@ -27,7 +27,7 @@ module.exports = {
     const latence = Date.now() -start;
 
     await sock.sendMessage(from, {
-      text: `🏓 *PONG !*\n\n⚡ Latence : *${latence}ms*\n🤖 Bot : *AIGER-XMD*\n✅ Statut : *En ligne !*`
+      text: `🏓 *PONG !*\n\n⚡ Latence : *${latence}ms*\n🤖 Bot : *SHADOW-TECH*\n✅ Statut : *En ligne !*`
 
     }, { quoted: msg });
 
