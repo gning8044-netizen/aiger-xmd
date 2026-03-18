@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://files.catbox.moe/4km857.jpg" width="300px" style="border-radius: 20px"/>
+<img src="https://files.catbox.moe/ye1edv.jpg" width="300px" style="border-radius: 20px"/>
 
-# 🤖 AIGER-XMD
+# 🤖 DEV SHADOW-TECH
 
 ### *Le Bot WhatsApp le plus puissant d'Afrique*
 
@@ -17,7 +17,7 @@
 
 > ❝ *Sans diplôme, sans PC — juste un téléphone et une vision.* ❞
 >
-> — **DEV MR MOUHAMED 🌸 DARK 🌸**
+> — **DEV MR SHADOW 🌸 TECH🌸**
 
 ---
 
@@ -38,7 +38,7 @@
 
 ## ✨ Présentation
 
-**AIGER-XMD** est un bot WhatsApp userbot ultra-puissant développé entièrement sur téléphone par **MOUHAMED 🌸 DARK 🌸**. Avec plus de **50 commandes**, il est conçu pour gérer, animer et protéger vos groupes WhatsApp.
+**DEV SHADOW-TECH** est un bot WhatsApp userbot ultra-puissant développé entièrement sur téléphone par **SHADOW 🌸 TECH 🌸**. Avec plus de **50 commandes**, il est conçu pour gérer, animer et protéger vos groupes WhatsApp.
 
 ```
 🤖 Bot  : Userbot (numéro WhatsApp réel)
@@ -326,10 +326,10 @@ npm start
 
 ```
 ╔══════════════════════════════╗
-║   🌸 DEV MR MOUHAMED DARK 🌸  ║
+║   🌸 DEV SHADOW TECH 🌸  ║
 ╚══════════════════════════════╝
 
-❝ Made with ❤️ by DARK 🌸 ❞
+❝ Made with ❤️ by SHADOW TECH 🌸 ❞
 
 Sans diplôme, sans PC
 Juste un téléphone et une vision 🔥
@@ -350,7 +350,7 @@ Juste un téléphone et une vision 🔥
 ## ⚠️ Avertissement légal
 
 ```
-© 2025 MOUHAMED 🌸 DARK 🌸 — Tous droits réservés
+© 2025 SHADOW 🌸 TECH 🌸 — Tous droits réservés
 
 ❌ Toute copie sans autorisation est interdite !
 ❌ Toute revente est interdite !
@@ -360,7 +360,7 @@ Juste un téléphone et une vision 🔥
 ✅ Fork autorisé avec crédits obligatoires
 ```
 
-> *AIGER-XMD est fourni tel quel, sans garantie. L'auteur n'est pas responsable d'une mauvaise utilisation.*
+> *SHADOW-XMD est fourni tel quel, sans garantie. L'auteur n'est pas responsable d'une mauvaise utilisation.*
 
 ---
 
@@ -368,7 +368,7 @@ Juste un téléphone et une vision 🔥
 
 **⭐ Si tu aimes AIGER-XMD, laisse une étoile sur GitHub ! ⭐**
 
-*Powered by AIGER-XMD 🌸 — By DEV MR MOUHAMED 🌸 DARK 🌸*
+*Powered by SHADOW-XMD 🌸 — By DEV MR SHADOW 🌸 TECH 🌸*
 
 </div>
 
