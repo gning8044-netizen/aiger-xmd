@@ -4,7 +4,7 @@
 
 module.exports = {
   name: "mute",
-  description: "Réduit le groupe au silence 🔇 !mute on/off",
+  description: "Laiser le group respirer 🔇 !mute on/off",
   category: "groupe",
 
   async execute({ sock, from, msg, isOwner, isGroup, senderIsAdmin, args }) {
@@ -41,8 +41,8 @@ module.exports = {
 
       await sock.sendMessage(from, {
         text: option === "on"
-          ? `🔇 *Groupe mis en silence !*\n\n_Seuls les admins peuvent envoyer des messages_\n\n_Powered by AIGER-XMD_ 🌸`
-          : `🔊 *Groupe réactivé !*\n\n_Tout le monde peut parler maintenant_\n\n_Powered by AIGER-XMD_ 🌸`,
+          ? `🔇 *Groupe mis en silence !*\n\n_Seuls les admins peuvent envoyer des messages_\n\n_Powered by SHADOW-TECH_ 🌸`
+          : `🔊 *Groupe réactivé !*\n\n_Tout le monde peut parler maintenant_\n\n_Powered by SHADOW-TECH_ 🌸`,
       }, { quoted: msg });
 
     } catch (err) {
