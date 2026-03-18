@@ -20,7 +20,7 @@ const express = require("express");
 // ─── Keep Alive ───────────────────────────────
 const app = express();
 const PORT = process.env.PORT || 8080;
-app.get("/", (_, res) => res.send("✅ AIGER-XMD en ligne !"));
+app.get("/", (_, res) => res.send("✅ SHADOW-TECH en ligne !"));
 app.listen(PORT, () => console.log(`🌐 Keep-alive → port ${PORT}`));
 
 const logger = pino({ level: "silent" });
@@ -143,14 +143,14 @@ if (fs.existsSync("./restart.json")) {
       await sock.sendMessage(data.from, {
         text:
           `╔══════════════════════════════╗\n` +
-          `║      ✅ *JE SUIS DE RETOUR !*  ║\n` +
+          `║      ✅ *SHADOW EST DE RETOUR !*  ║\n` +
           `╚══════════════════════════════╝\n\n` +
           `❝ _Je t'avais dit que je reviendrais..._\n` +
           `_plus fort qu'avant_ ❞ 😈\n\n` +
-          `⚡ *AIGER-XMD* est de retour !\n` +
+          `⚡ *SHADOW-TECH* est de retour !\n` +
           `📦 *Commandes :* ${plugins.size} chargées\n` +
           `🚀 *Statut :* Opérationnel !\n\n` +
-          `_Powered by AIGER-XMD_ 🌸`,
+          `_Powered by DEV SHADOW-TECH_ 🌸`,
       });
     }, 3000);
   } catch {}
@@ -158,7 +158,7 @@ if (fs.existsSync("./restart.json")) {
 
       const settings = getSettings();
       console.log("\n╔══════════════════════════════╗");
-      console.log("║     🤖 AIGER-XMD ACTIF !     ║");
+      console.log("║     🤖 SHADOW-TECH ACTIF !     ║");
       console.log("╠══════════════════════════════╣");
       console.log(`║ 👤 ${sock.user?.id?.split(":")[0].padEnd(26)}║`);
       console.log(`║ 🌍 Mode : ${settings.mode.toUpperCase().padEnd(21)}║`);
@@ -189,15 +189,15 @@ sock.ev.on("group-participants.update", async ({ id, participants, action }) => 
           `❝ _Un nouveau guerrier rejoint\n` +
           `le champ de bataille..._ 😈⚡\n\n` +
           `━━━━━━━━━━━━━━━━━━━━━━━━━━━\n` +
-          `📜 *LES RÈGLES DU GROUPE :*\n` +
-          `├ ✅ Respecte les membres\n` +
+          `📜 *FAIS CE QUE JE VEUX :*\n` +
+          `├ ✅ Respecte Shadow Tech\n` +
           `├ ✅ Pas de spam\n` +
           `├ ✅ Pas de liens non autorisés\n` +
           `└ ✅ Bonne ambiance ! 😄\n` +
           `━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n` +
           `🔥 _Montre nous ce que tu vaux !_\n` +
           `💎 _Le groupe t'attend !_ 👑\n\n` +
-          `_Powered by AIGER-XMD_ 🌸`,
+          `_Powered by SHADOW-TECH_ 🌸`,
         mentions: [participant],
       }).catch(() => {});
     }
@@ -206,7 +206,7 @@ sock.ev.on("group-participants.update", async ({ id, participants, action }) => 
       await sock.sendMessage(from, {
         text:
           `┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\n` +
-          `┃   💔 *DÉPART D'UN MEMBRE* 💔 ┃\n` +
+          `┃   💔 *YA KHAME DÉMAL* 💔 ┃\n` +
           `┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n\n` +
           `╔══════════════════════════════╗\n` +
           `║     🚪 *AU REVOIR !* 🚪      ║\n` +
@@ -221,7 +221,7 @@ sock.ev.on("group-participants.update", async ({ id, participants, action }) => 
           `⚡ _Peut-être !_ 😂\n` +
           `🌸 _Bonne continuation !_\n` +
           `━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n` +
-          `_Powered by AIGER-XMD_ 🌸`,
+          `_Powered by SHADOW-TECH_ 🌸`,
         mentions: [participant],
       }).catch(() => {});
     }
@@ -337,7 +337,7 @@ if (isGroup && settings.antilink?.[from] && !msg.key.fromMe && !isOwner && !send
           `❝ _Tu as été averti 3 fois..._\n` +
           `_Au revoir !_ ❞ 😈\n\n` +
           `🔨 _Expulsé !_\n\n` +
-          `_Powered by AIGER-XMD_ 🌸`,
+          `_Powered by SHADOW-TECH_ 🌸`,
         mentions: [sender],
       }).catch(() => {});
     } else {
@@ -354,7 +354,7 @@ if (isGroup && settings.antilink?.[from] && !msg.key.fromMe && !isOwner && !send
           `${coeurs}\n` +
           `⚠️ *Avertissement ${warns}/3*\n` +
           `❌ _Encore ${restant} lien(s) = expulsion !_\n\n` +
-          `_Powered by AIGER-XMD_ 🌸`,
+          `_Powered by SHADOW-TECH_ 🌸`,
         mentions: [sender],
       }).catch(() => {});
     }
