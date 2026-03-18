@@ -30,7 +30,7 @@ module.exports = {
         `⏱️ *Minutes :*  ${minutes}m\n` +
         `⚡ *Secondes :* ${secondes}s\n` +
         `━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n` +
-        `_Powered by AIGER-XMD_ 🌸`,
+        `_Powered by SHADOW-TECH_ 🌸`,
     }, { quoted: msg });
   },
 };
