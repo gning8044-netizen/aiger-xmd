@@ -5,7 +5,7 @@
 
 module.exports = {
   name: "owner",
-  description: "👑 Révèle les maîtres derrière AIGER-XMD",
+  description: "👑 Révèle les maîtres derrière SHADOW-TECH",
   category: "général",
 
   async execute({ sock, from, msg }) {
@@ -20,7 +20,7 @@ module.exports = {
         `_se cachent de grandes personnes_ ❞ 😈\n\n` +
         `━━━━━━━━━━━━━━━━━━━━━━━━━━━\n` +
         `🚨 *Tu as un problème URGENT ?*\n` +
-        `→ Contacte *Paul Walker* immédiatement !\n` +
+        `→ Contacte *shadow tech* immédiatement !\n` +
         `→ _Rapide, efficace, sans perdre de temps_ ⚡\n\n` +
         `💬 *Tu veux une explication CLAIRE ?*\n` +
         `→ Contacte *Angela Merkel* tranquillement !\n` +
@@ -28,27 +28,27 @@ module.exports = {
         `━━━━━━━━━━━━━━━━━━━━━━━━━━━`,
     }, { quoted: msg });
 
-    // ✅ Contact MR MOUHAMED 🌸 DARK 🌸 
+    // ✅ Contact MR SHADOW 🌸 TECH 🌸 
     await sock.sendMessage(from, {
       contacts: {
-        displayName: "IM MR MOUHAMED BAH ⚡",
+        displayName: "IM MR SHADOW TECH ⚡",
         contacts: [{
           vcard:
             `BEGIN:VCARD\n` +
             `VERSION:3.0\n` +
-            `FN:IM MR MOUHAMED 🌸 DARK 🌸 ⚡\n` +
-            `ORG:AIGER-XMD;\n` +
+            `FN:IM MR SHADOW 🌸 TECH 🌸 ⚡\n` +
+            `ORG:SHADOW-TECH;\n` +
             `TITLE:🚨 Urgences & Problèmes Rapides\n` +
-            `TEL;type=CELL;type=VOICE;waid=2206969574:+2206969574\n` +
+            `TEL;type=CELL;type=VOICE;waid=221766297256:+221766297256\n` +
             `END:VCARD`,
         }],
       },
     }, { quoted: msg });
 
-    // ✅ Contact Angela Merkel
+    // ✅ Contact Shadow Tech
     await sock.sendMessage(from, {
       contacts: {
-        displayName: "Angela Merkel 🌸",
+        displayName: "Shadow Tech 🌸",
         contacts: [{
           vcard:
             `BEGIN:VCARD\n` +
@@ -56,7 +56,7 @@ module.exports = {
             `FN:Angela Merkel 🌸\n` +
             `ORG:AIGER-XMD;\n` +
             `TITLE:💬 Assistante & Explications Claires\n` +
-            `TEL;type=CELL;type=VOICE;waid=2204024336:+220 402 4336\n` +
+            `TEL;type=CELL;type=VOICE;waid=221766297256:+221 76629 7256\n` +
             `END:VCARD`,
         }],
       },
@@ -68,7 +68,7 @@ module.exports = {
         `━━━━━━━━━━━━━━━━━━━━━━━━━━━\n` +
         `💡 *Clique sur un contact*\n` +
         `_pour écrire directement !_ 👆\n\n` +
-        `_Powered by AIGER-XMD_ 🌸`,
+        `_Powered by SHADOW-TECH_ 🌸`,
     }, { quoted: msg });
   },
 };
